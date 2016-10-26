@@ -1,2 +1,2 @@
 # CementeryUnity
-VR experience on a cementery
+VR experience on a cemetery
