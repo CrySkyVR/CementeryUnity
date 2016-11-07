@@ -2,8 +2,8 @@ using UnityEngine;
 using System.Collections;
 
 public class OneSignalController : MonoBehaviour {
-    private const string ONE_SIGNAL_APP_ID = "2cd384ff-0f76-4576-8e66-0fd1d80c268d";
-    private const string GOOGLE_SENDER_ID = "916307869808";
+    private const string ONE_SIGNAL_APP_ID = "93f1c30e-3d2b-4eab-8a98-2272e5008e6a";
+    private const string GOOGLE_SENDER_ID = "958369594751";
 
     void Start() {
         // Enable line below to enable logging if you are having issues setting up OneSignal. (logLevel, visualLogLevel)
