@@ -2554,6 +2554,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9841e9fcc68da45b59036215428056fa, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &221154396 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000012342466172, guid: 4e43c93ed7ee12a4597eb0039213b46f,
+    type: 2}
+  m_PrefabInternal: {fileID: 750631671}
+  m_Script: {fileID: 11500000, guid: 94dd98402081c4240947d0fec2a428c1, type: 3}
 --- !u!1001 &333353568
 Prefab:
   m_ObjectHideFlags: 0
@@ -3373,7 +3379,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 736151428}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 221154396}
+        m_MethodName: changeScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &736151428
@@ -3469,6 +3486,11 @@ Prefab:
     - target: {fileID: 4000011311667704, guid: 4e43c93ed7ee12a4597eb0039213b46f, type: 2}
       propertyPath: m_RootOrder
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012342466172, guid: 4e43c93ed7ee12a4597eb0039213b46f,
+        type: 2}
+      propertyPath: nextSceneName
+      value: cemetery_VR_android01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4e43c93ed7ee12a4597eb0039213b46f, type: 2}
