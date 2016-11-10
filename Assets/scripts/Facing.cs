@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Facing : MonoBehaviour {
@@ -12,7 +12,7 @@ public class Facing : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		transform.LookAt (objetivo,direccionInicial);
+		transform.LookAt (objetivo, Vector3.up);
 	
 	}
 }
