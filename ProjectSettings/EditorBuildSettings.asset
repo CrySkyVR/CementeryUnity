@@ -8,6 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/crysky_intro.unity
   - enabled: 1
-    path: Assets/cemetery_VR_android01.unity
-  - enabled: 1
     path: Assets/menuScene01.unity
+  - enabled: 1
+    path: Assets/cemetery_VR_android01.unity
