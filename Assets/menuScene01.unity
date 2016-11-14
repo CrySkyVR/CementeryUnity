@@ -3806,6 +3806,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 928037172}
   - 114: {fileID: 928037173}
+  - 114: {fileID: 928037174}
   m_Layer: 0
   m_Name: ADS
   m_TagString: Untagged
@@ -3841,6 +3842,17 @@ MonoBehaviour:
   banner: 1
   interestial_OFFERS: 0
   interestial_FULLPAGE: 0
+--- !u!114 &928037174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 928037171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c37a569a6c4a0e4ba8f8221e5e0f434, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &938047829
 Prefab:
   m_ObjectHideFlags: 0
