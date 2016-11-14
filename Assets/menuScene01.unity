@@ -3839,7 +3839,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   randomInterestial: 1
   banner: 1
-  interestial_VIDEO: 0
   interestial_OFFERS: 0
   interestial_FULLPAGE: 0
 --- !u!1001 &938047829
