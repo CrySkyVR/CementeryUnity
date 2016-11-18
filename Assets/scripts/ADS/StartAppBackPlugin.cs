@@ -6,24 +6,17 @@ public class StartAppBackPlugin : MonoBehaviour{
 
 	void Start () {
 	#if UNITY_ANDROID
-		StartAppWrapper.loadAd();
+		//StartAppWrapper.loadAd();
 	#endif
     }
 
 	void Update () {
 	#if UNITY_ANDROID
 		if (Input.GetKeyUp (KeyCode.Escape)) {
-			if (StartAppWrapper.onBackPressed(gameObject.name) == false) {
-				exit();
-			}
-		}
+            Application.Quit();
+        }
 	#endif
     }
 	
-	#if UNITY_ANDROID
-	void exit() {
-		Application.Quit ();
-	}
-	#endif
 
 }
